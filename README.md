@@ -29,7 +29,6 @@ padrao_projetos_playwright/
 ## Como usar este modelo
 
 1. Clone o repositório:
-
    ```bash
    git clone https://github.com/jefersoncaye/padrao_projetos_playwright.git
    cd padrao_projetos_playwright
@@ -40,8 +39,12 @@ padrao_projetos_playwright/
    cd venv/bin/activate 
    pip install -r requirements.txt
    ```
-3. Faça os ajustes necessarios para seu sistema
-4. Execute os testes:
+3. Instale os navegadores do Playwright:
+   ```bash
+   playwright install
+   ```
+4. Faça os ajustes necessarios para seu sistema
+5. Execute os testes:
    ```bash
    pytest ...
    ```
