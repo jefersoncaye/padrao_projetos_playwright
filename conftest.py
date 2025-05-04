@@ -139,8 +139,8 @@ def pytest_sessionfinish(session, exitstatus):
     try:
         conn = psycopg2.connect(
             dbname="informacoes_testes",
-            user='postgres',
-            password='masterkey',
+            user='xxxxxx',
+            password='xxxxxx',
             host='apus',
             port='5432'
         )
