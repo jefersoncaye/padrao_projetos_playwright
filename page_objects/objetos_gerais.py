@@ -189,7 +189,7 @@ class ObjetosGerais:
         self.page.wait_for_load_state()
 
     @staticmethod
-    def construir_link(base_url, arquivo_json="D:\workspace\TestesWeb\Cloud\parametros_sessao.json"):
+    def construir_link(base_url, arquivo_json="padrao_projetos_playwright\parametros_sessao.json"):
         try:
             with open(arquivo_json, "r", encoding="utf-8") as arquivo:
                 parametros = json.load(arquivo)

@@ -12,7 +12,7 @@ def test_login_cloud(set_up_page):
         page,
         usuario='administrador',
         conexao='test_exemplo',
-        senha='masterkey',
+        senha='xxxxxxx',
         empresa='9999',
         filial='1',
         periodo_calculo='',
@@ -99,11 +99,11 @@ def test_gerar_dime(set_up_page):
         contador='1',
         empresa='9999',
         filial='1',
-        caminho_arquivo=r'D:\workspace\testesWeb\Cloud\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\dime.txt'
+        caminho_arquivo=r'padrao_projetos_playwright\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\dime.txt'
     )
     comparar_arquivos(
-        arquivo_base=r"D:\workspace\testesWeb\Cloud\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\base_dime.txt",
-        arquivo_atual=r'D:\workspace\testesWeb\Cloud\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\dime.txt',
+        arquivo_base=r"padrao_projetos_playwright\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\base_dime.txt",
+        arquivo_atual=r'padrao_projetos_playwright\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\dime.txt',
         linhas_ignorar=[1])
 
 
@@ -144,11 +144,11 @@ def test_gerar_sped(set_up_page):
         gerar_bloco_k="K200/K280",
         gerar_registro_de_inventario="Não",
         tipo_declaracao="Original",
-        caminho_relatorio=r'D:\workspace\testesWeb\Cloud\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\sped.txt'
+        caminho_relatorio=r'padrao_projetos_playwright\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\sped.txt'
     )
     comparar_arquivos(
-        arquivo_base=r"D:\workspace\testesWeb\Cloud\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\base_sped.txt",
-        arquivo_atual=r"D:\workspace\testesWeb\Cloud\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\sped.txt")
+        arquivo_base=r"padrao_projetos_playwright\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\base_sped.txt",
+        arquivo_atual=r"padrao_projetos_playwright\stores\fiscal\icms_sc\test_apuracao_credito_presumido_transportes_icms_sc\sped.txt")
 
 
 def test_limpar_apuracao_icms(set_up_page):
@@ -173,6 +173,6 @@ def test_limpar_apuracao_icms(set_up_page):
         data_final='31/01/2023',
         cod_empresa='9999',
         cod_filial='1',
-        log_validar="9999 - Empresa Padrão New Informática - SCMatriz: Limpando apuração de 01/01/2023 à 31/01/2023: Foram excluídos 63 registros.Operação Concluída!Tempo decorrido:"
+        log_validar="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     )
     sair_cloud(page)

@@ -33,7 +33,7 @@ def test_get_info(api_request_context, api_login):
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_info_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_info_atual.json')
     lista_chaves_validar = ['Versao',
                             'InfoBancoDados',
                             'InfoServicos',
@@ -71,9 +71,9 @@ def test_get_pegar_versao_questor(api_request_context, api_login):
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_pegar_versao_questor_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_pegar_versao_questor_atual.json')
     json_base = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_pegar_versao_questor.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_pegar_versao_questor.json')
     resultado_schema_body = validar_schema_dicionario(
         dicionario_base=json_base, dicionario_atual=resposta_json)
     print(
@@ -111,7 +111,7 @@ def test_get_pegar_menus_questor(api_request_context, api_login):
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_pegar_menus_questor_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_pegar_menus_questor_atual.json')
     lista_modulos = ['Gerenciador de Empresas', 'Contabilidade', 'Folha de Pagamento', 'Inventário', 'Fiscal',
                      'Controle Organizacional', 'Controle de Tributos', 'Financeiro', 'Tribunal de Contas do Estado',
                      'Arquivos Magnéticos', 'Web', 'Serviço Trabalho Temporário', 'Controle Patrimonial',
@@ -148,16 +148,16 @@ def test_get_pegar_consulta_cadastro(api_request_context, api_login):
     print(test_get_pegar_consulta_cadastro.__doc__)
     token_api = api_login
     body_get = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\data\get_pegar_consulta_cadastro_body.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\data\get_pegar_consulta_cadastro_body.json')
     request = api_request_context.get(
         f'api/TnWebDMConsulta/Pegar?token={token_api}&_AActionName=TnFisDMLctoFisEnt&_AiDisplayStart=0&_AiDisplayLength=200&_AOrderBy=2&_AsEcho=asc',
         data=body_get, timeout=60000)
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_pegar_consulta_cadastro_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_pegar_consulta_cadastro_atual.json')
     json_base = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_pegar_consulta_cadastro.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_pegar_consulta_cadastro.json')
     resultado_schema_body = validar_schema_dicionario(
         dicionario_base=json_base, dicionario_atual=resposta_json)
     print(
@@ -187,9 +187,9 @@ def test_get_dados_gerais(api_request_context, api_login):
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_dados_gerais_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_dados_gerais_atual.json')
     json_base = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_dados_gerais.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_dados_gerais.json')
     resultado_schema_body = validar_schema_dicionario(
         dicionario_base=json_base, dicionario_atual=resposta_json)
     print(
@@ -216,16 +216,16 @@ def test_get_relatorio_executar(api_request_context, api_login):
     print(test_get_relatorio_executar.__doc__)
     token_api = api_login
     body_get = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\data\get_relatorio_executar_body.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\data\get_relatorio_executar_body.json')
     request = api_request_context.get(
         f'api/TnWebDMRelatorio/Executar?token={token_api}&_AActionName=nFisRRResumoConfLctoFisEnt&_ABase64=False&_ATipoRetorno=nrwexTxt',
         data=body_get, timeout=60000)
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_relatorio_executar_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_relatorio_executar_atual.json')
     json_base = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\get_relatorio_executar.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\get_relatorio_executar.json')
     resultado_schema_body = validar_schema_dicionario(
         dicionario_base=json_base, dicionario_atual=resposta_json)
     print(
@@ -258,16 +258,16 @@ def test_post_processo_executar_imp_cte(api_request_context, api_login):
     print(test_post_processo_executar_imp_cte.__doc__)
     token_api = api_login
     body_get = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\data\post_processo_executar_imp_cte_body.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\data\post_processo_executar_imp_cte_body.json')
     request = api_request_context.post(
         f'api/TnWebDMProcesso/ProcessoExecutar?token={token_api}&_AActionName=TnArqDPImportarArqCTe',
         data=body_get, timeout=60000)
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_imp_cte_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_imp_cte_atual.json')
     json_base = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_imp_cte.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_imp_cte.json')
     resultado_schema_body = validar_schema_dicionario(
         dicionario_base=json_base, dicionario_atual=resposta_json)
     print(
@@ -331,16 +331,16 @@ def test_post_processo_executar_cons_lcto_fis_ent(
     print(test_post_processo_executar_cons_lcto_fis_ent.__doc__)
     token_api = api_login
     body_get = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\data\post_processo_executar_cons_lcto_fis_ent_body.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\data\post_processo_executar_cons_lcto_fis_ent_body.json')
     request = api_request_context.post(
         f'api/TnWebDMProcesso/ProcessoExecutar?Token={token_api}&_AActionName=TnFisDPConsultaLctoSai',
         data=body_get, timeout=60000)
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_lcto_fis_ent_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_lcto_fis_ent_atual.json')
     json_base = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_lcto_fis_ent.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_lcto_fis_ent.json')
     resultado_schema_body = validar_schema_dicionario(
         dicionario_base=json_base, dicionario_atual=resposta_json)
     print(
@@ -368,16 +368,16 @@ def test_post_processo_executar_cons_per_apurado(
     print(test_post_processo_executar_cons_per_apurado.__doc__)
     token_api = api_login
     body_get = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\data\post_processo_executar_cons_per_apurado_body.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\data\post_processo_executar_cons_per_apurado_body.json')
     request = api_request_context.post(
         f'api/TnWebDMProcesso/ProcessoExecutar?token={token_api}&_AActionName=TnFisDPConsultaPeriodoApurado',
         data=body_get, timeout=60000)
     resposta_json = request.json()
     salvar_json(
         resposta_json=resposta_json,
-        caminho_arquivo_salvar=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_per_apurado_atual.json')
+        caminho_arquivo_salvar=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_per_apurado_atual.json')
     json_base = abri_json(
-        arquivo_json=r'D:\workspace\testesweb\Cloud\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_per_apurado.json')
+        arquivo_json=r'padrao_projetos_playwright\testes_api\stores\test_endpoints_api\schemas\post_processo_executar_cons_per_apurado.json')
     resultado_schema_body = validar_schema_dicionario(
         dicionario_base=json_base, dicionario_atual=resposta_json)
     print(

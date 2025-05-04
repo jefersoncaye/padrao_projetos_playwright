@@ -20,7 +20,7 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="session")
 def set_up_context(browser, request):
-    pasta_arquivos_magicos = r'D:\workspace\TestesWeb\Cloud\ArquivosComuns\ArquivosMagicos\ArquivosServidor\LOCALHOST'
+    pasta_arquivos_magicos = r'padrao_projetos_playwright\ArquivosComuns\ArquivosMagicos\ArquivosServidor\LOCALHOST'
     pasta_tributario = r'D:\workspace\Tributario'
     video_option = request.config.getoption("--salvar_video")
     record_video = video_option.lower() == "on"
@@ -36,9 +36,9 @@ def set_up_context(browser, request):
         url_base = f'http://{config_global.servidor_global}:8080/'
 
     if os.path.isfile(
-            r'd:\workspace\testesWeb\Cloud\playwright\auth\state.json'):
+            r'padrao_projetos_playwright\playwright\auth\state.json'):
         context = browser.new_context(
-            storage_state=r'd:\workspace\testesWeb\Cloud\playwright\auth\state.json',
+            storage_state=r'padrao_projetos_playwright\playwright\auth\state.json',
             base_url=url_base,
             record_video_dir="test-results/" if record_video else None,
             viewport={"width": 1366, "height": 768})
@@ -51,12 +51,12 @@ def set_up_context(browser, request):
     yield context
     nome_arquivo_teste = next((arg for arg in sys.argv if arg.endswith(".py")), "teste_desconhecido")
     nome_trace = f"{slugify(nome_arquivo_teste)}.zip"
-    trace_path = os.path.join(r"D:\workspace\testesweb\Cloud\test-results\traces", nome_trace)
+    trace_path = os.path.join(r"padrao_projetos_playwright\test-results\traces", nome_trace)
     context.tracing.stop(path=trace_path)
     if not os.path.isfile(
-            r'd:\workspace\testesWeb\Cloud\playwright\auth\state.json'):
+            r'padrao_projetos_playwright\playwright\auth\state.json'):
         context.storage_state(
-            path=r'd:\workspace\testesWeb\Cloud\playwright\auth\state.json')
+            path=r'padrao_projetos_playwright\playwright\auth\state.json')
     context.close()
 
 

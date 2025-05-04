@@ -183,13 +183,13 @@ def ler_arquivo_configuracao(modulo):
     modulos_arquivo_api = ['api']
 
     if modulo.lower() in modulos_arquivo_fiscal:
-        arquivo_xml = r'D:\workspace\testesweb\Cloud\ArquivosConfiguracaoInstalacao\ConfiguracaoFiscalPostgre.xml'
+        arquivo_xml = r'padrao_projetos_playwright\ArquivosConfiguracaoInstalacao\ConfiguracaoFiscalPostgre.xml'
     if modulo.lower() in modulos_arquivo_folha:
-        arquivo_xml = r'D:\workspace\testesweb\Cloud\ArquivosConfiguracaoInstalacao\ConfiguracaoFolhaPostgre.xml'
+        arquivo_xml = r'padrao_projetos_playwright\ArquivosConfiguracaoInstalacao\ConfiguracaoFolhaPostgre.xml'
     if modulo.lower() in modulos_arquivo_abre_fecha:
-        arquivo_xml = r'D:\workspace\testesweb\Cloud\ArquivosConfiguracaoInstalacao\ConfiguracaoAbreFecha.xml'
+        arquivo_xml = r'padrao_projetos_playwright\ArquivosConfiguracaoInstalacao\ConfiguracaoAbreFecha.xml'
     if modulo.lower() in modulos_arquivo_api:
-        arquivo_xml = r'D:\workspace\testesweb\Cloud\ArquivosConfiguracaoInstalacao\ConfiguracaoApiPostgre.xml'
+        arquivo_xml = r'padrao_projetos_playwright\ArquivosConfiguracaoInstalacao\ConfiguracaoApiPostgre.xml'
 
     tree = et.parse(arquivo_xml)
     root = tree.getroot()
@@ -263,13 +263,13 @@ def login_cloud(
         "data_inicial": f"{ano_inicial}-{mes_inicial}-{dia_inicial}",
         "data_final": f"{ano_final}-{mes_final}-{dia_final}",
     }
-    with open(r'D:\workspace\TestesWeb\Cloud\parametros_sessao.json', "w", encoding="utf-8") as arquivo:
+    with open(r'padrao_projetos_playwright\parametros_sessao.json', "w", encoding="utf-8") as arquivo:
         json.dump(parametros, arquivo, ensure_ascii=False, indent=4)
     if excluir_cookies:
         page.context.clear_cookies()
         try:
-            if os.path.exists(r"D:\Workspace\testesweb\Cloud\playwright\auth\state.json"):
-                os.remove(r"D:\Workspace\testesweb\Cloud\playwright\auth\state.json")
+            if os.path.exists(r"padrao_projetos_playwright\playwright\auth\state.json"):
+                os.remove(r"padrao_projetos_playwright\playwright\auth\state.json")
                 print("Json excluído com sucesso.")
         except Exception as e:
             print(f"Erro ao tentar excluir o Json: {e}")
@@ -288,7 +288,7 @@ def login_cloud(
         build_data = open(fr'\\{config_global.servidor_global}\Tributario\Build.data', 'r').read().strip()
     else:
         build_data = open(r'D:\workspace\Tributario\Build.data', 'r').read().strip()
-    if os.path.isfile(r'D:\workspace\testesweb\Cloud\restaurarBackupJob.txt'):
+    if os.path.isfile(r'padrao_projetos_playwright\restaurarBackupJob.txt'):
         restaurar_bkp_job = True
     fazer_bkp_global, restaurar_bkp_global = ler_arquivo_configuracao(modulo=modulo)
     print(f'\nFaz login com os seguintes parametros:'
@@ -423,7 +423,7 @@ def alterar_selecao_empresa(
         "data_inicial": f"{ano_inicial}-{mes_inicial}-{dia_inicial}",
         "data_final": f"{ano_final}-{mes_final}-{dia_final}",
     }
-    with open(r'D:\workspace\TestesWeb\Cloud\parametros_sessao.json', "w", encoding="utf-8") as arquivo:
+    with open(r'padrao_projetos_playwright\parametros_sessao.json', "w", encoding="utf-8") as arquivo:
         json.dump(parametros, arquivo, ensure_ascii=False, indent=4)
     ObjetosGerais.acessar_home(page)
     page.wait_for_timeout(2000)

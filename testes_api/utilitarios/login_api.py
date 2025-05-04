@@ -9,10 +9,10 @@ def login_api(api_request_context, base):
     arquivo_conexao = open(r'D:\workspace\Tributario\Questor.Conexao.ini',
                            'r').read().strip()
     fazer_bkp_global, restaurar_bkp_global = ler_arquivo_configuracao(modulo='api')
-    storage_state = r'd:\workspace\testesWeb\Cloud\playwright\auth\state.json'
+    storage_state = r'padrao_projetos_playwright\playwright\auth\state.json'
     restaurar_bkp_job = False
     token_api = None
-    if os.path.isfile(r'D:\workspace\testesweb\Cloud\restaurarBackupJob.txt'):
+    if os.path.isfile(r'padrao_projetos_playwright\restaurarBackupJob.txt'):
         restaurar_bkp_job = True
     if not token_api:
         if restaurar_bkp_job:

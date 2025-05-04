@@ -8,9 +8,9 @@ import config_global
 
 @pytest.fixture(scope="session")
 def api_request_context(playwright: Playwright):
-    pasta_arquivos_magicos = r'D:\workspace\TestesWeb\Cloud\ArquivosComuns\ArquivosMagicos\ArquivosServidor\LOCALHOST'
+    pasta_arquivos_magicos = r'padrao_projetos_playwright\ArquivosComuns\ArquivosMagicos\ArquivosServidor\LOCALHOST'
     pasta_tributario = r'D:\workspace\Tributario'
-    storage_state = r'd:\workspace\testesWeb\Cloud\playwright\auth\state.json'
+    storage_state = r'padrao_projetos_playwright\playwright\auth\state.json'
     if config_global.in_jenkins:
         url_base = f'http://{config_global.servidor_global}:8080/'
     else:
@@ -34,7 +34,7 @@ def api_request_context(playwright: Playwright):
 
 @pytest.fixture(scope="session")
 def api_request_context_geral(playwright: Playwright):
-    storage_state = r'd:\workspace\testesWeb\Cloud\playwright\auth\state.json'
+    storage_state = r'padrao_projetos_playwright\playwright\auth\state.json'
     request_context = playwright.request.new_context(
         ignore_https_errors=True,
     )
