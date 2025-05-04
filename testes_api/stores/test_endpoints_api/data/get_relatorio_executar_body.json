@@ -1,0 +1,22 @@
+{
+  "reportParameters": {
+    "ReportFor": 1,
+    "pDataInicial": "01/01/2022",
+    "pDataFinal": "10/01/2025",
+    "pTipoPeriodo": 1,
+    "pTipoImposto": "1;2;10;11;12;13;15",
+    "pTotalizar": 4,
+    "pListarOutrasInfo": 1,
+    "pListarTotalImposto": 1,
+    "pExibirDadosNatureza": 1,
+    "pExibirDadosPessoa": 1,
+    "pExibirDadosProduto": 1,
+    "pLinhaHorizontal": 1,
+    "pCodigoEmpresa": 24,
+    "pCodigoEstab": 1,
+    "pOrdenacao": 1,
+    "pNumeroFolha": 1,
+    "pNumeroLivro": 1,
+    "pImpFolhaInicial": 1
+  }
+}

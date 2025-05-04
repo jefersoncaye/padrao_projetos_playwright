@@ -1,0 +1,494 @@
+{
+  "FormClass": "TnFrmPowerParam",
+  "Widgets": {
+    "bottom": [
+      {
+        "Itens": [
+          {
+            "grids": [
+              {
+                "nomegrid": "nClientDataSet",
+                "DisableButtons": [],
+                "paging": {
+                  "pageSize": 50,
+                  "pageIndex": 0
+                },
+                "pager": {
+                  "visible": true,
+                  "showNavigationButtons": true,
+                  "showPageSizeSelector": true,
+                  "allowedPageSizes": [
+                    10,
+                    50,
+                    100,
+                    500
+                  ],
+                  "showInfo": true
+                },
+                "editing": {
+                  "useIcons": true,
+                  "mode": "batch",
+                  "allowAdding": false,
+                  "allowDeleting": false,
+                  "allowUpdating": false,
+                  "startEditAction": "click",
+                  "selectTextOnEditStart": true
+                },
+                "keyExpr": "INDICE",
+                "rowAlternationEnabled": true,
+                "allowColumnReordering": true,
+                "sendFilteredData": false,
+                "allowColumnResizing": true,
+                "remoteOperations": {
+                  "paging": true,
+                  "filtering": true,
+                  "sorting": true
+                },
+                "filterRow": {
+                  "visible": true,
+                  "applyFilter": "auto"
+                },
+                "groupPanel": {
+                  "visible": false
+                },
+                "dataSettings": {
+                  "UsarDataset": true,
+                  "DataSend": "dsUpdated",
+                  "DataReturn": "drAll",
+                  "datasetNames": [
+                    "nClientDataSet"
+                  ],
+                  "Name": "ActSalvarProcesso"
+                },
+                "selection": {
+                  "mode": "none",
+                  "allowSelectAll": true,
+                  "selectAllMode": "page",
+                  "showCheckBoxesMode": "always"
+                },
+                "GridButtons": [],
+                "GridButtonsIA": [],
+                "headerFilter": {
+                  "visible": true
+                },
+                "onRowPrepared": {
+                  "use": true,
+                  "rules": [
+                    {
+                      "condition": [
+                        "ATUALIZADO",
+                        "==",
+                        ""
+                      ],
+                      "itens": [
+                        {
+                          "name": "color",
+                          "value": "rgb(0,0,0)"
+                        },
+                        {
+                          "name": "font-weight",
+                          "value": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "columns": [
+                  {
+                    "dataField": "INDICE",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true
+                    },
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "INDICE",
+                    "dataType": "number",
+                    "visible": false,
+                    "selectedFilterOperation": "startswith",
+                    "showInColumnChooser": false
+                  },
+                  {
+                    "dataField": "TIPOIMPOSTO",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": true,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Imposto",
+                    "allowEditing": true,
+                    "dataType": "number",
+                    "dicionario": "",
+                    "visible": true,
+                    "selectedFilterOperation": "=",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true,
+                    "lookup": {
+                      "valueExpr": "id",
+                      "displayExpr": "desc",
+                      "allowClearing": true,
+                      "dataSource": [
+                        {
+                          "id": 1,
+                          "desc": "ICMS"
+                        },
+                        {
+                          "id": 2,
+                          "desc": "ISS"
+                        },
+                        {
+                          "id": 10,
+                          "desc": "IPI"
+                        },
+                        {
+                          "id": 13,
+                          "desc": "Substitui\u00e7\u00e3o Tribut\u00e1ria"
+                        },
+                        {
+                          "id": 17,
+                          "desc": "CIAP"
+                        },
+                        {
+                          "id": 20,
+                          "desc": "IRRF"
+                        },
+                        {
+                          "id": 27,
+                          "desc": "PIS/COFINS/CSLL"
+                        },
+                        {
+                          "id": 50,
+                          "desc": "COSIRF"
+                        },
+                        {
+                          "id": 33,
+                          "desc": "SIMPLES Nacional"
+                        },
+                        {
+                          "id": 30,
+                          "desc": "SIMPLES Federal"
+                        },
+                        {
+                          "id": 39,
+                          "desc": "Lucro Presumido (PIS e COFINS)"
+                        },
+                        {
+                          "id": 40,
+                          "desc": "Lucro Presumido (IRPJ e CSLL)"
+                        },
+                        {
+                          "id": 31,
+                          "desc": "Lucro Presumido"
+                        },
+                        {
+                          "id": 32,
+                          "desc": "Lucro Real (PIS e COFINS)"
+                        },
+                        {
+                          "id": 34,
+                          "desc": "Lucro Real (IRPJ e CSLL)"
+                        },
+                        {
+                          "id": 45,
+                          "desc": "Contribui\u00e7\u00e3o Previdenci\u00e1ria"
+                        },
+                        {
+                          "id": 71,
+                          "desc": "Escritura\u00e7\u00e3o Cont\u00e1bil Fiscal (ECF)"
+                        },
+                        {
+                          "id": 76,
+                          "desc": "Escritura\u00e7\u00e3o Fiscal Digital (EFD)"
+                        },
+                        {
+                          "id": 11,
+                          "desc": "Funrural - PJ/Agroind\u00fastria"
+                        },
+                        {
+                          "id": 77,
+                          "desc": "DIFAL/FCP"
+                        },
+                        {
+                          "id": 51,
+                          "desc": "CP Aquisi\u00e7\u00e3o de Produtor Rural"
+                        },
+                        {
+                          "id": 52,
+                          "desc": "CP Recursos Recebidos de Empresa do Exterior"
+                        },
+                        {
+                          "id": 53,
+                          "desc": "Contribui\u00e7\u00e3o Previdenci\u00e1ria Servi\u00e7os Tomados"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "dataField": "TIPOAPURACAO",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": true,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Tipo Apuracao",
+                    "allowEditing": true,
+                    "dataType": "number",
+                    "dicionario": "",
+                    "visible": true,
+                    "selectedFilterOperation": "=",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true,
+                    "lookup": {
+                      "valueExpr": "id",
+                      "displayExpr": "desc",
+                      "allowClearing": true,
+                      "dataSource": [
+                        {
+                          "id": 1,
+                          "desc": "Di\u00e1rio"
+                        },
+                        {
+                          "id": 2,
+                          "desc": "Semanal"
+                        },
+                        {
+                          "id": 3,
+                          "desc": "Decendial"
+                        },
+                        {
+                          "id": 4,
+                          "desc": "Quinzenal"
+                        },
+                        {
+                          "id": 5,
+                          "desc": "Mensal"
+                        },
+                        {
+                          "id": 6,
+                          "desc": "Trimestral"
+                        },
+                        {
+                          "id": 7,
+                          "desc": "Anual"
+                        },
+                        {
+                          "id": 11,
+                          "desc": "12/2006-2007"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "dataField": "ESTABELECIMENTO",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": false,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Estabelecimento",
+                    "allowEditing": true,
+                    "dataType": "string",
+                    "dicionario": "",
+                    "visible": true,
+                    "selectedFilterOperation": "contains",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true
+                  },
+                  {
+                    "dataField": "DATAINICIAL",
+                    "calculateFilterExpression": "dxdatagridDateFilter",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": true,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Data Inicial",
+                    "allowEditing": true,
+                    "dataType": "date",
+                    "dicionario": "",
+                    "mask": "00/00/0000",
+                    "visible": true,
+                    "selectedFilterOperation": "=",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true
+                  },
+                  {
+                    "dataField": "DATAFINAL",
+                    "calculateFilterExpression": "dxdatagridDateFilter",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": true,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Data Final",
+                    "allowEditing": true,
+                    "dataType": "date",
+                    "dicionario": "",
+                    "mask": "00/00/0000",
+                    "visible": true,
+                    "selectedFilterOperation": "=",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true
+                  },
+                  {
+                    "dataField": "CODIGOUSUARIO",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": true,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Usu\u00e1rio",
+                    "allowEditing": true,
+                    "dataType": "number",
+                    "dicionario": "",
+                    "visible": true,
+                    "selectedFilterOperation": "=",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true
+                  },
+                  {
+                    "dataField": "NOMEUSUARIO",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": false,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Nome",
+                    "allowEditing": true,
+                    "dataType": "string",
+                    "dicionario": "",
+                    "visible": true,
+                    "selectedFilterOperation": "contains",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true
+                  },
+                  {
+                    "dataField": "DATAHORAUSUARIO",
+                    "calculateFilterExpression": "dxdatagridDateFilter",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": true,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Data/Hora",
+                    "allowEditing": true,
+                    "dataType": "datetime",
+                    "dicionario": "",
+                    "mask": "",
+                    "visible": true,
+                    "selectedFilterOperation": "=",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true
+                  },
+                  {
+                    "dataField": "ATUALIZADO",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": false,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Atualizado",
+                    "allowEditing": true,
+                    "dataType": "string",
+                    "dicionario": "",
+                    "visible": true,
+                    "selectedFilterOperation": "contains",
+                    "valorPercentual": false,
+                    "showInColumnChooser": true
+                  },
+                  {
+                    "dataField": "STYLE",
+                    "Lookup": {
+                      "LinkLookupMultiSelecao": false,
+                      "Lookup": false,
+                      "LinkDirecionaCadastro": true,
+                      "isNtcLinkAnnotation": false
+                    },
+                    "encodeHtml": true,
+                    "Expressoes": {
+                      "ForcarValor": false,
+                      "PermiteAlterarValorCloud": false
+                    },
+                    "caption": "Style",
+                    "allowEditing": true,
+                    "dataType": "number",
+                    "dicionario": "",
+                    "visible": false,
+                    "selectedFilterOperation": "=",
+                    "valorPercentual": false,
+                    "showInColumnChooser": false
+                  }
+                ],
+                "summary": {},
+                "items": [],
+                "totalcount": 0,
+                "Caption": " "
+              }
+            ],
+            "Name": "twcxGrid",
+            "twcxGrid": true,
+            "Visible": true
+          }
+        ]
+      }
+    ]
+  },
+  "BodyCols": 12
+}

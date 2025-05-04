@@ -1,0 +1,351 @@
+{
+  "FormClass": "TnFrmPowerParam",
+  "Widgets": {
+    "bottom": [
+      {
+        "Itens": [
+          {
+            "nTreeView": [
+              {
+                "text": "EMPRESA DEMONSTRACAO Matriz",
+                "icon": "glyphicon glyphicon-ok",
+                "state": {
+                  "opened": false
+                },
+                "nodes": [
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005091000104722-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005101000104790-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005111000104860-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005121000104930-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005131000105004-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005141000105079-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005151000105149-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005161000105219-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005171000105283-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    },
+                    "nodes": [
+                      {
+                        "text": "A Natureza: 6353002 foi encontrada nos lan\u00e7amentos, por\u00e9m n\u00e3o est\u00e1 cadastrada! Cadastre-a para integrar!",
+                        "icon": "glyphicon glyphicon-warning-sign",
+                        "state": {
+                          "opened": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005181000105353-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005191000105423-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005201000105491-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005211000105561-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005221000105631-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005231000105701-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005241000105776-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005251000105846-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005261000105916-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005271000105980-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005281000106054-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005291000106191-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005301000106265-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005311000106335-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005321000106405-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005331000106470-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005341000106540-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  },
+                  {
+                    "text": "D:\\workspace\\Tributario\\temp\\nWebExe_Cxtest_endpoints_apiadministrador_i0_t1_28_11_29_29_770\\~CTeffc\\43200733975259000107570010000005351000106610-procCTe.xml",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "CTe / CTe OS",
+                "icon": "glyphicon glyphicon-ok",
+                "state": {
+                  "opened": false
+                },
+                "nodes": [
+                  {
+                    "text": "Registros para DuplicataSai",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    },
+                    "nodes": [
+                      {
+                        "text": "Total de Registros para Grava\u00e7\u00e3o: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      },
+                      {
+                        "text": "Total de Registros Gravados: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Registros para LctoFisSai",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    },
+                    "nodes": [
+                      {
+                        "text": "Total de Registros para Grava\u00e7\u00e3o: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      },
+                      {
+                        "text": "Total de Registros Gravados: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Registros para LctoFisSaiCFOP",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    },
+                    "nodes": [
+                      {
+                        "text": "Total de Registros para Grava\u00e7\u00e3o: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      },
+                      {
+                        "text": "Total de Registros Gravados: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Registros para LctoFisSaiConFrete",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    },
+                    "nodes": [
+                      {
+                        "text": "Total de Registros para Grava\u00e7\u00e3o: 27",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      },
+                      {
+                        "text": "Total de Registros Gravados: 27",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Registros para LctoFisSaiDIFAL",
+                    "icon": "glyphicon glyphicon-ok",
+                    "state": {
+                      "opened": false
+                    },
+                    "nodes": [
+                      {
+                        "text": "Total de Registros para Grava\u00e7\u00e3o: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      },
+                      {
+                        "text": "Total de Registros Gravados: 26",
+                        "icon": "glyphicon glyphicon-ok",
+                        "state": {
+                          "opened": false
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "Name": "TreeView",
+            "twTreeView": true,
+            "Visible": true
+          }
+        ]
+      }
+    ]
+  },
+  "BodyCols": 12,
+  "Message": "Conclu\u00eddo com sucesso!"
+}

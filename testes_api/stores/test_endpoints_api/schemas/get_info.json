@@ -1,0 +1,656 @@
+{
+  "Versao": "24.10.0.0",
+  "InfoBancoDados": "Multiplos bancos",
+  "InfoServicos": {
+    "nWebDMMenus": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMRelatorio": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMConsulta": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMDadosGerais": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMDadosObjetos": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMCadastros": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMIntegracao": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMProcesso": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    },
+    "nWebDMJobs": {
+      "FileName": "",
+      "BinaryFile": false,
+      "NoAJAXJSON": false,
+      "Options": 1792,
+      "HandleAuthentication": false,
+      "BypassORMAuthentication": 0,
+      "Stats": {
+        "StartDate": "2024-10-21 18:22:32",
+        "Success": 0,
+        "ServiceMethod": 0,
+        "ServiceInterface": 0,
+        "OutcomingFiles": 0,
+        "CurrentThreadCount": 0,
+        "Created": 0,
+        "Read": 0,
+        "Updated": 0,
+        "Deleted": 0,
+        "ClientsCurrent": 0,
+        "ClientsMax": 0,
+        "CurrentRequestCount": 0,
+        "Input": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "Output": {
+          "Bytes": 0,
+          "Text": "0 B"
+        },
+        "InputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "OutputThroughput": {
+          "BytesPerSec": 0,
+          "Text": "0 B/s"
+        },
+        "Processing": false,
+        "TaskCount": 0,
+        "TotalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "LastTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MinimalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "AverageTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "MaximalTime": {
+          "MicroSec": 0,
+          "Text": "0us"
+        },
+        "PerSec": 0,
+        "Errors": 0,
+        "LastError": null
+      },
+      "StatLevels": 23,
+      "StaticVirtualTableDirect": true,
+      "ServerTimeStamp": 135868786101
+    }
+  },
+  "InfoErros": {
+    "errocount": 0,
+    "erros": []
+  },
+  "RequestsAtivas": [],
+  "Erros": {
+    "errocount": 0,
+    "erros": []
+  },
+  "EstatisticasRequests": {
+    "Erros": [],
+    "TotalErros": 0,
+    "TotalRequests": 0,
+    "ErrorRate": "0%",
+    "TotalErrosAPI": 0,
+    "TotalRequestsAPI": 0,
+    "ErrorRateAPI": "0%"
+  },
+  "ServerInfo": {
+    "BuildInfo": "TagRio 2925 20/10/2024 22:05:02,36 Trunk $QUESTORLEANTRUNK ",
+    "Versao": "24.10.0.0",
+    "TempoAtivo": "00:00:21",
+    "MemoriaEmUso": 66,
+    "MemoriaLimite": 100,
+    "ProcessadorEmUso": 1.52,
+    "MemoriaTotal": "15 GB",
+    "Processadores": "12",
+    "HostName": "192.168.0.103",
+    "Porta": 8080,
+    "PHttps": 0,
+    "LimiteClients": 256,
+    "MinutosOcioso": 10,
+    "Minimoexe": 2,
+    "TempoBuscaExeMs": 50,
+    "LoopBuscaExe": 80,
+    "MemoriaCor": "blue",
+    "Administrador": true
+  },
+  "Processos": {
+    "Executaveis": [],
+    "Totais": [
+      {
+        "Base": "Total",
+        "Total": 0
+      }
+    ]
+  }
+}
